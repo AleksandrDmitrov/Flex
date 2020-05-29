@@ -1,0 +1,51 @@
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262626;
+    color: white;
+    text-transform: uppercase;
+    flex-grow:  0.5;
+}
+
+.logo {
+/*margin-left: auto;*/
+    padding: 5vmin;
+}
+
+.navList {
+    white-space: nowrap;
+    text-align: right;
+    padding: 30px;
+
+}
+
+.navListItem {
+    display: inline-block;
+    padding: 10px 40px;
+
+}
+
+a {
+    margin:5vmin;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 6em;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: inherit ;
+}
+
+
+
+main {
+
+    width: 100vw;
+    background-image: url("https://dnepr.info/wp-content/uploads/2020/05/kafe.jpg");
+}
